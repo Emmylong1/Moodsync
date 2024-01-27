@@ -1,0 +1,9 @@
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.homeContainer{
+  display: flex;
+  flex-direction: column;
+}

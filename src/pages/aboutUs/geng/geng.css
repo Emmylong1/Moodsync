@@ -1,0 +1,41 @@
+.moodsync_geng_wrapper {
+  padding: 2rem 0;
+}
+
+.moodsync_text_heading {
+  text-align: center;
+  margin: -1rem 0 4rem 0;
+  color: #Fe0037;
+}
+
+.image {
+  background-color: #Fe0037;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 10rem;
+  margin-bottom: 0.5rem;
+}
+
+.moodsync_geng_portfolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 2rem;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio h3 {
+  margin: 0;
+  color: #Fe0037;
+}
+
+.portfolio p {
+  margin: 0.2rem;
+  font-size: 0.9rem;
+  color: #Ff8275;
+  font-weight: bold;
+}

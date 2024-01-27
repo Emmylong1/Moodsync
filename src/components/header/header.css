@@ -1,0 +1,84 @@
+.hero {
+  /* background: linear-gradient(to right, rgba(254, 0, 55, 0.4), rgba(254, 0, 55, 0.1)); */
+  padding: 1rem 6rem;
+}
+
+.hero_content {
+  color: #Fe0037;
+  line-height: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero_content h1 {
+  /* clap is used instead of @media query to setting different sizes for buildboard, tablets etc */
+  font-size: clamp(3rem, 8vw, 7rem);
+  margin: 2rem;
+}
+
+.hero_P {
+  font-size: clamp(1rem, 4vw, 2rem);
+  margin-bottom: 1rem;
+}
+.create {
+  margin: 1.5rem 0;
+}
+.available {
+  margin: 0 0 1.5rem 0;
+}
+
+.headerBtn{
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-weight: 500;
+  background: #Fe0037;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s ease;
+  text-decoration: none;
+  display: flex;
+  
+}
+.headerBtn:hover {
+  background: #FFFFFF;
+  color: #Fe0037;
+  font-weight: bold;
+}
+
+.available_button {
+  display: flex;
+  justify-content: center;
+}
+
+.app_icon {
+  margin-right: 5px;
+}
+
+.app,
+.play {  
+  background: #333333;
+}
+.app {
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    padding: 0 2rem;
+  }
+
+  .hero_content h1 {
+    /* clap is used instead of @media query to setting different sizes for buildboard, tablets etc */
+    font-size: clamp(4rem, 8vw, 7rem);
+  }
+
+  .hero_P {
+    font-size: clamp(1rem, 3vw, 2rem);
+    margin-bottom: 2rem;
+  }
+}

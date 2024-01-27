@@ -1,0 +1,107 @@
+.footer{
+  padding: 1rem 4rem;
+  /* background: linear-gradient(to right, rgba(180, 2, 41, 0.4), rgba(82, 1, 19, 0.1)); */
+  color: #Fe0037;
+}
+
+.first_footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.about,
+.Contact {
+  width: 300px;
+}
+
+.footer_logo p,
+.ourProduct p,
+.Company p,
+.Address p {
+  margin: 1rem 0;
+  letter-spacing: 0.5px;
+}
+
+.mood {
+  font-size: 12px;  
+}
+
+.footer_links button {
+  padding: 12px 15px;
+  border: solid 2px #Fe0037;
+  color: #Fe0037;
+  font-size: 1.4rem;
+  border-radius: 50px;
+  background: none;
+  margin-right: 5px;
+}
+
+.Terms {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.second_footer {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.second_footer a {
+  color: #Fe3072;
+}
+
+@media screen and (max-width: 1025px) {
+  .about,
+  .Contact {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .first_footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about,
+  .Contact {
+    width: 300px;
+  }
+  
+  .about span {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 1rem 2rem;
+  }
+  
+  .first_footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Terms {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Address p {
+    margin: 0.5rem 0;
+  }
+
+  .second_footer,
+  .about,
+  .Contact {
+    width: 330px;
+  }
+
+  .footer_links button {
+    font-size: 1rem;
+    padding: 12px 14px;
+  }
+}

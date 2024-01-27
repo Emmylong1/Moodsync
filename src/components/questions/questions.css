@@ -1,0 +1,208 @@
+.section5 {
+  padding: 1rem 4rem;
+  /* background: linear-gradient(to right, rgba(254, 0, 55, 0.4), rgba(254, 0, 55, 0.1)); */
+  color: #333333;
+}
+
+.question_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.question_heading {
+  text-align: center;
+}
+
+.question_heading h3 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.line {
+  width: 20px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background: #Fe0037;
+  display: block;
+  cursor: pointer;
+}
+
+.question_button {
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #Fe0037;
+}
+
+.question1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border: none;
+  background: none;
+  min-width: 600px;
+  letter-spacing: 0.5px;
+  align-items: center;
+  position: relative;
+}
+
+.bar {
+  color: #Fe0037;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.question1 h3 {
+  font-size: 1.2rem;
+}
+
+.explanation {
+  text-align: left;
+  width: 430px;
+  font-size: 13px;
+  color: #Fe0037;
+}
+
+.land {
+  width: 90%;
+  height: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 4rem 50px 4rem;
+  background: #Fe0037;
+  border-radius: 50px;
+  margin: 3rem 0;
+  color: #FFFFFF;
+}
+
+.ready h3 {
+  font-size: 2.2rem;
+}
+
+.ready p {
+  text-align: center;
+  font-size: 12px;
+  margin: 3rem 0 2rem 0;
+}
+
+.app_button {
+  display: flex;
+  flex-direction: row;
+}
+
+.apple_app,
+.play_app,
+.web_app {
+  color: #Fe0037;
+  padding: 0.7rem 1.8rem;
+  font-size: 12px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+}
+
+.web_app {
+  padding: 0.7rem 1.9rem;
+}
+
+.play_app {
+  padding: 0.7rem 1.77rem;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.sample img {
+  width: 250px;
+}
+
+@media screen and (max-width: 768px) {
+  .section5 {
+    padding: 1rem 2rem;
+  }
+  
+  .question_heading h3 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  .question1 {
+    min-width: 500px;
+    font-size: 12px;
+    position: relative;
+  }
+ 
+  .question1 h3 {
+    font-size: 1rem;
+  }
+
+  .question_button {
+    margin-top: 2rem;
+  }
+
+  .land {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 550px;
+    border-radius: 30px;
+    padding: 2rem;
+  }
+
+  .ready { 
+    text-align: center;
+  }
+  .ready h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  .ready p {
+    font-size: 12px;
+    margin: 2rem 0;
+  }
+  
+  .app_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .App {
+    margin-top: 5px;
+  }
+
+  .apple_app,
+  .play_app {
+    margin-bottom: 10px;
+  }
+
+  .sample img {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .question1 {
+    min-width: 360px;
+  }
+ 
+  .question1 h3 {
+    font-size: 1rem;
+  }
+
+  .explanation {
+    width: 280px;
+    padding: 0 2rem;
+  }
+}

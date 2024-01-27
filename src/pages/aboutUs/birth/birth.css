@@ -1,0 +1,50 @@
+.about_birth_section {
+  padding: 1rem 6rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.birth {
+  text-align: center;
+  max-width: 670px;
+}
+
+.birth h1 {
+  color: #Fe0037;
+  font-size: 3rem;
+}
+
+.birth p {
+  color: #333333;
+}
+
+.about_content {
+  background-color: #Fe0037;
+  max-width: 900px;
+  border-radius: 50px;
+  padding: 1rem 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+img {
+  width: 70%;
+}
+
+.about_content_left {
+  max-width: 500px;
+  letter-spacing: 0.5px;
+  color: #Ff8275;
+}
+
+.about_content_left h2 {
+  margin-bottom: -0.7rem;
+}
+
+.we,
+.mission {
+  margin-bottom: 2rem;
+}
